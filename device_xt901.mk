@@ -54,8 +54,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.cdma.subscription=0 \
     cdma.operator.numeric=311580 \
     gsm.sim.operator.numeric=311580 \
-    persist.radio.no_wait_for_card=1
-
+    persist.radio.no_wait_for_card=1 \
+    ril.subscription.types=RUIM
 # IDC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/atmxt-i2c.idc:system/usr/idc/atmxt-i2c.idc \
